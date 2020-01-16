@@ -1,0 +1,125 @@
+@media (max-width: 1200px) {}
+@media (max-width: 991px) {
+    .container {
+        min-width: 748px;
+        margin: 0 auto;
+    }
+    .promo {
+        &__header {
+            font-size: 38px;
+            line-height: 11px;
+        }
+        &__subheader {
+            font-size: 21px;
+        }
+    }
+    .advantages {
+        &__text {
+            max-width: 215px;
+        }
+    }
+}
+@media (max-width: 767px) {
+    .container {
+        min-width: 559px;
+        margin: 0 auto;
+    }
+    .header {
+        &__logo {
+            width: 141px;
+        }
+        &__phone {
+            font-size: 14px;
+        }
+        button {
+                width: 124px;
+                height: 26px;
+                font-size: 11px;
+        }
+    }
+    .promo {
+        &__header {
+            font-size: 31px;
+            line-height: 11px;
+        }
+        &__subheader {
+            font-size: 17px;
+        }
+        &__icons {
+            width: 370px;
+        }
+    }
+    .advantages {
+        &__icons {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 0px;
+            
+        }
+        &__icon {
+            margin-top: 55px;
+        }
+        &__title {
+            margin-top: 12px;
+        }
+        &__text {
+            max-width: 215px;
+            margin-top: 8px;
+        }
+    }
+}
+@media (max-width: 575px) {
+    .container {
+        min-width: 100px;
+        margin: 0 auto;
+    }
+    .header {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        &__logo {
+            width: 150px;
+        }
+        &__official {
+            margin-top: 15px;
+        }
+        &__phone {
+            display: none;
+        }
+    button {
+        display: none;
+    }
+    }
+    .promo {
+        &__header {
+            font-size: 31px;
+            line-height: 37px;
+            display: block;
+            text-align: center;
+        }
+        &__subheader {
+            display: block;
+            text-align: center;
+            font-size: 15px;
+        }
+        &__wrapper {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        &__icons {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10px;
+        }
+        &__icon {
+            margin-top: 40px;
+            img {
+                margin-bottom: 10px;
+            }
+        }
+    }
+    
+}
