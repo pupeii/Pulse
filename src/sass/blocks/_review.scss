@@ -1,0 +1,43 @@
+.review {
+    padding-bottom: 70px;
+    h2 {
+        padding-bottom: 70px;
+    }
+    &__block {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 100px;
+        &:last-child {
+            padding-bottom: 70px;
+        }
+    }
+    &__round {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 62px;
+        width: 169px;
+        height: 169px;
+        border-radius: 100%;
+    }
+    &__descr {
+        width: 656px;
+    }
+    &__subtitle1 {
+        font-size: 18px;
+        font-weight: 700;
+        color: #0d0d0d;
+    }
+    &__subtitle2 {
+        margin-top: 10px;
+        font-size: 14px;
+        font-weight: 300;
+        color: #646464;
+    }
+    &__text {
+        margin-top: 19px;
+        font-size: 16px;
+        font-weight: 300;
+        color: #0d0d0d;
+    }
+}
